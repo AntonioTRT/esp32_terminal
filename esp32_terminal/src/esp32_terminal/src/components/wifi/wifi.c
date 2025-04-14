@@ -2,6 +2,7 @@
 #include "esp_wifi.h"
 #include "esp_event.h"
 #include "esp_log.h"
+#include <string.h>
 #include "nvs_flash.h"
 
 static const char *TAG = "wifi";
